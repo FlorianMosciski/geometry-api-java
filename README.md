@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/Esri/geometry-api-java.png?branch=master)](https://travis-ci.org/Esri/geometry-api-java)
 
-# geometry-api-java
+  geometry-api-java
 
 The Esri Geometry API for Java can be used to enable spatial data processing in 3rd-party data-processing solutions.  Developers of custom MapReduce-based applications for Hadoop can use this API for spatial processing of data in the Hadoop system.  The API is also used by the [Hive UDF’s](https://github.com/Esri/spatial-framework-for-hadoop) and could be used by developers building geometry functions for 3rd-party applications such as [Cassandra]( https://cassandra.apache.org/), [HBase](http://hbase.apache.org/), [Storm](http://storm-project.net/) and many other Java-based “big data” applications.
 
 ## Features
-* API methods to create simple geometries directly with the API, or by importing from supported formats: JSON, WKT, and Shape
+# API methods to create simple geometries directly with the API, or by importing from supported formats: JSON, WKT, and Shape
 * API methods for spatial operations: union, difference, intersect, clip, cut, and buffer
 * API methods for topological relationship tests: equals, within, contains, crosses, and touches
 
@@ -69,3 +69,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](https://raw.github.com/Esri/geometry-api-java/master/license.txt) file.
+ 
